@@ -11,6 +11,7 @@ const NAV = [
   { href: "/craft/chain-stitch-rugs", label: "Chain-stitch rugs" },
   { href: "/craft/pashmina", label: "Pashmina shawls" },
   { href: "/about", label: "About us" },
+  { href: "/about#contact", label: "Contact us" },
 ];
 
 export default function Header() {
@@ -49,6 +50,7 @@ export default function Header() {
           ))}
           <Link href="/craft/chain-stitch-rugs">Our craft</Link>
           <Link href="/about">About</Link>
+          <Link href="/about#contact">Contact</Link>
         </nav>
         <div className="hdr-right">
           <Link href="/shop?saved=1" className="icon-btn" aria-label={`Saved items (${ids.length})`}>

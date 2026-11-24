@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SHOP_URL } from "./catalog";
+import { SHOP_URL, CONTACT } from "./catalog";
 
 export default function Footer() {
   return (
@@ -28,16 +28,23 @@ export default function Footer() {
           <ul>
             <li><Link href="/craft/chain-stitch-rugs">How chain-stitch rugs are made</Link></li>
             <li><Link href="/craft/pashmina">Handcrafted pashmina shawls</Link></li>
-            <li><Link href="/about">About us</Link></li>
+            <li><Link href="/about">About us &amp; Anand Creations</Link></li>
           </ul>
         </div>
         <div>
-          <h4>Buy with confidence</h4>
+          <h4>Contact</h4>
           <ul>
-            <li>Checkout and payment on Etsy</li>
-            <li>Custom sizes on request</li>
             <li>
-              <a href={SHOP_URL} target="_blank" rel="noopener noreferrer">Visit our Etsy shop ↗</a>
+              <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp {CONTACT.phone}</a>
+            </li>
+            <li>
+              <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+            </li>
+            <li>
+              <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer">Instagram @thread_and_design_art</a>
+            </li>
+            <li>
+              <a href={SHOP_URL} target="_blank" rel="noopener noreferrer">Etsy shop ↗</a>
             </li>
           </ul>
         </div>

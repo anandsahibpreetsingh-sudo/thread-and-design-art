@@ -3,6 +3,13 @@ import { T, RAW } from "../data/listings";
 export const SHOP_URL = "https://www.etsy.com/shop/ThreadAndDesignArt";
 export const listingUrl = (id) => `https://www.etsy.com/listing/${id}`;
 
+export const CONTACT = {
+  whatsapp: "https://wa.me/919797555005",
+  phone: "+91 97975 55005",
+  email: "anandsahib007@gmail.com",
+  instagram: "https://www.instagram.com/thread_and_design_art/",
+};
+
 const IMG = "https://i.etsystatic.com/60754467/";
 
 // code = "hash/imageid_suffix" (or "G..." raw path from the shop grid)

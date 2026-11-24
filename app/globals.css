@@ -215,3 +215,12 @@ tbody th { font-weight: 500; color: var(--ink); }
 
 :focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* contact */
+.contact-cards { display: grid; gap: 18px; grid-template-columns: 1fr; max-width: 980px; margin: 0 auto; }
+@media (min-width: 760px) { .contact-cards { grid-template-columns: repeat(3, 1fr); } }
+.contact-card { display: block; text-align: center; padding: 34px 20px; background: var(--stone); border: 1px solid transparent; transition: border-color .25s, background .25s; }
+.contact-card:hover { border-color: var(--brass); background: #fff; }
+.contact-card small { display: block; font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--brass); margin-bottom: 8px; }
+.contact-card span { font-family: var(--serif); font-size: 22px; color: var(--ink); overflow-wrap: anywhere; }
+.steps .num { min-width: 64px; }
