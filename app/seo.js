@@ -1,7 +1,7 @@
 import { LISTINGS, imgUrl } from "./catalog";
 
 // Switch this to the custom domain once it is connected in Vercel.
-export const SITE_URL = "https://thread-and-design-art.vercel.app";
+export const SITE_URL = "https://threadanddesignart.com";
 export const SITE_NAME = "Thread and Design Art";
 
 const TECH = {
