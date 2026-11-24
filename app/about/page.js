@@ -57,7 +57,12 @@ export default function About() {
           </p>
           <a className="btn" href={SHOP_URL} target="_blank" rel="noopener noreferrer">Message us on Etsy ↗</a>
         </div>
-        <img src="/images/orange-real.jpg" alt="Handmade chain-stitch rug" loading="lazy" />
+        <img
+          src="/images/founder.jpg"
+          alt="The founder of Thread and Design Art, seated in front of a Kashmiri embroidered wall hanging"
+          style={{ objectPosition: "center 20%" }}
+          loading="lazy"
+        />
       </section>
 
       <section className="wrap section">
