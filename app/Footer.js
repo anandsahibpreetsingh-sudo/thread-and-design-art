@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { SHOP_URL, CONTACT } from "./catalog";
 
+const PINTEREST = "https://in.pinterest.com/Threadandesignart/";
+
 export default function Footer() {
   return (
     <footer className="ftr">
@@ -43,6 +45,9 @@ export default function Footer() {
             </li>
             <li>
               <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer">Instagram @thread_and_design_art</a>
+            </li>
+            <li>
+              <a href={PINTEREST} target="_blank" rel="noopener noreferrer">Pinterest ↗</a>
             </li>
             <li>
               <a href={SHOP_URL} target="_blank" rel="noopener noreferrer">Etsy shop ↗</a>

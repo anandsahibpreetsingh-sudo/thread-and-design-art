@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Card from "./Card";
-import { LISTINGS, byId, imgUrl, pick, SHOP_URL } from "./catalog";
+import { LISTINGS, byId, imgUrl, pick, SHOP_URL, CONTACT } from "./catalog";
 
 const FEATURED = [
   "4357753898", "4468765230", "4373949875", "4373929598",
@@ -88,6 +88,18 @@ export default function Home() {
           <Link href="/craft/pashmina" className="btn-line big">Handcrafted pashmina shawls</Link>
         </div>
         {pashImg && <img src={imgUrl(pashImg)} alt="Handcrafted pashmina shawl" loading="lazy" />}
+      </section>
+
+      <section className="wrap section about-strip">
+        <h2>Follow our work</h2>
+        <p>
+          New designs, studio moments and finished pieces, shared as we make them.
+        </p>
+        <p>
+          <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer" className="btn-line big">Instagram ↗</a>{" "}
+          <a href="https://in.pinterest.com/Threadandesignart/" target="_blank" rel="noopener noreferrer" className="btn-line big">Pinterest ↗</a>{" "}
+          <a href={SHOP_URL} target="_blank" rel="noopener noreferrer" className="btn-line big">Etsy ↗</a>
+        </p>
       </section>
 
       <section className="wrap section about-strip">

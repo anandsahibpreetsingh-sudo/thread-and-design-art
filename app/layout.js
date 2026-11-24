@@ -28,6 +28,7 @@ export const metadata = {
     images: [{ url: "/images/navy-hallway.jpg", alt: "Handmade Kashmiri chain-stitch rug" }],
   },
   twitter: { card: "summary_large_image" },
+  other: { "p:domain_verify": "0e41076d582b453cc4dbe29121a66318" },
 };
 
 const jsonLd = {
