@@ -29,7 +29,7 @@ export default function Header() {
       <div className="announce">
         <span>Handmade in Kashmir</span>
         <span className="dot">·</span>
-        <span>Ships to the US, UK &amp; Europe</span>
+        <span>Shipping worldwide</span>
         <span className="dot hide-sm">·</span>
         <span className="hide-sm">Secure checkout on Etsy</span>
       </div>

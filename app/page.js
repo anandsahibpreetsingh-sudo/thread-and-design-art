@@ -93,7 +93,7 @@ export default function Home() {
       <section className="wrap section about-strip">
         <h2>About Thread and Design Art</h2>
         <p>
-          A small business bringing Kashmiri handicraft to homes in the US, UK and Europe.
+          A small business bringing Kashmiri handicraft to homes around the world.
           Custom sizes are available on request.
         </p>
         <p>
