@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SHOP_URL, CONTACT } from "../catalog";
 
 export const metadata = {
-  title: "About us | Thread and Design Art",
+  title: "About us",
   description:
     "Thread and Design Art carries forward Anand Creations, a Kashmiri handicraft exporter since 2000 and one of the leading chain-stitch exporters in India.",
 };
@@ -29,7 +29,7 @@ export default function About() {
           </p>
           <p>
             Over the years it grew into one of the leading exporters of chain stitch, and was
-            awarded the highest exports from CEPC in 2009, 2010 and 2011.
+            awarded the highest exports from EEPC in 2009, 2010 and 2011.
           </p>
           <p>
             I took that legacy further by starting the retail business for these products, bringing
@@ -63,7 +63,7 @@ export default function About() {
             <span className="num">2009</span>
             <div>
               <h3>Recognised for exports</h3>
-              <p>Awarded the highest exports from CEPC in 2009, 2010 and 2011, as one of the leading chain-stitch exporters.</p>
+              <p>Awarded the highest exports from EEPC in 2009, 2010 and 2011, as one of the leading chain-stitch exporters.</p>
             </div>
           </li>
           <li>
