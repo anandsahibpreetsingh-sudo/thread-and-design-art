@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { imgUrl, listingUrl } from "./catalog";
 import { useSaved } from "./saved";
 
@@ -10,10 +11,10 @@ export default function Card({ item }) {
   return (
     <article className="card">
       <div className="thumb">
-        <a href={href} target="_blank" rel="noopener noreferrer" aria-label={item.title}>
+        <Link href={`/product/${item.id}`} aria-label={item.title}>
           <img className="i1" src={imgUrl(a)} alt={item.title} loading="lazy" />
           {b && <img className="i2" src={imgUrl(b)} alt="" loading="lazy" />}
-        </a>
+        </Link>
         {item.isNew && <span className="badge">New</span>}
         <button
           type="button"
@@ -28,7 +29,7 @@ export default function Card({ item }) {
         </button>
       </div>
       <div className="meta">
-        <h3>{item.name}</h3>
+        <h3><Link href={`/product/${item.id}`}>{item.name}</Link></h3>
         <p className="sub">{item.sub}</p>
         {item.size && <p className="size">{item.size}</p>}
         <a className="btn-line" href={href} target="_blank" rel="noopener noreferrer">
