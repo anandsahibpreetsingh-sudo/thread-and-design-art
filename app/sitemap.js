@@ -6,6 +6,10 @@ export default function sitemap() {
   const pages = [
     ["", 1],
     ["/shop", 0.9],
+    ["/collections/kashmiri-rugs", 0.9],
+    ["/collections/chain-stitch-rugs", 0.9],
+    ["/collections/chain-stitch-cushion-covers", 0.8],
+    ["/collections/pashmina-shawls", 0.9],
     ["/about", 0.7],
     ["/craft/chain-stitch-rugs", 0.8],
     ["/craft/pashmina", 0.8],

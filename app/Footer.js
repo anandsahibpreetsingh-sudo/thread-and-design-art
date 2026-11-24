@@ -17,9 +17,10 @@ export default function Footer() {
         <div>
           <h4>Shop</h4>
           <ul>
-            <li><Link href="/shop?cat=Rugs">Rugs</Link></li>
-            <li><Link href="/shop?cat=Cushion%20covers">Cushion covers</Link></li>
-            <li><Link href="/shop?cat=Pashmina">Pashmina</Link></li>
+            <li><Link href="/collections/kashmiri-rugs">Handmade Kashmiri rugs</Link></li>
+            <li><Link href="/collections/chain-stitch-rugs">Chain stitch rugs</Link></li>
+            <li><Link href="/collections/chain-stitch-cushion-covers">Chain stitch cushion covers</Link></li>
+            <li><Link href="/collections/pashmina-shawls">Pashmina shawls</Link></li>
             <li><Link href="/shop">Everything</Link></li>
           </ul>
         </div>
