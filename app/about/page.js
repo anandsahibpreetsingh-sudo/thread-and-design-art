@@ -24,7 +24,7 @@ export default function About() {
         <div>
           <h2>Our story</h2>
           <p>
-            Anand Creations was started in 2000 by my father, beginning very small as an exporter of
+            Anand Creations was started in 2000 by my father, Mr. Gurpreet Singh Anand, beginning very small as an exporter of
             handmade carpets, cushion covers, chain stitch and other home furnishing items.
           </p>
           <p>
@@ -79,7 +79,7 @@ export default function About() {
       <section className="split soft">
         <div>
           <p className="eyebrow">Meet the maker</p>
-          <h2>Hello, I&apos;m the maker behind Thread and Design Art</h2>
+          <h2>Hello, I&apos;m Sahib Anand, the maker behind Thread and Design Art</h2>
           <p>
             I grew up around this craft, and I run the shop myself, from choosing designs to packing
             every order and answering your questions. If you are unsure about size, colour or how a
@@ -91,7 +91,7 @@ export default function About() {
         </div>
         <img
           src="/images/founder.jpg"
-          alt="The founder of Thread and Design Art, seated in front of a Kashmiri embroidered wall hanging"
+          alt="Sahib Anand, founder of Thread and Design Art, seated in front of a Kashmiri embroidered wall hanging"
           style={{ objectPosition: "center 20%" }}
           loading="lazy"
         />
