@@ -1,7 +1,7 @@
 import ShopClient from "../ShopClient";
 
 export const metadata = {
-  title: "Shop | Thread and Design Art",
+  title: "Shop",
   description:
     "Browse every handmade Kashmiri rug, cushion cover and pashmina shawl. Filter by size, material and technique, then check out on Etsy.",
 };
