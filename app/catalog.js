@@ -6,7 +6,7 @@ export const listingUrl = (id) => `https://www.etsy.com/listing/${id}`;
 export const CONTACT = {
   whatsapp: "https://wa.me/919797555005",
   phone: "+91 97975 55005",
-  email: "anandsahib007@gmail.com",
+  email: "threadanddesignart@gmail.com",
   instagram: "https://www.instagram.com/thread_and_design_art/",
 };
 
