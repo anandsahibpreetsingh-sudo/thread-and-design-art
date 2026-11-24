@@ -29,7 +29,7 @@ export default function About() {
           </p>
           <p>
             Over the years it grew into one of the leading exporters of chain stitch, and was
-            awarded the highest exports from EEPC in 2009, 2010 and 2011.
+            awarded the highest exports from EEPC in 2007-08 and 2008-09.
           </p>
           <p>
             I took that legacy further by starting the retail business for these products, bringing
@@ -60,10 +60,10 @@ export default function About() {
             </div>
           </li>
           <li>
-            <span className="num">2009</span>
+            <span className="num">2007-09</span>
             <div>
               <h3>Recognised for exports</h3>
-              <p>Awarded the highest exports from EEPC in 2009, 2010 and 2011, as one of the leading chain-stitch exporters.</p>
+              <p>Awarded the highest exports from EEPC in 2007-08 and 2008-09, as one of the leading chain-stitch exporters.</p>
             </div>
           </li>
           <li>
