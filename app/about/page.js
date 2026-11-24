@@ -33,7 +33,7 @@ export default function About() {
           </p>
           <p>
             I took that legacy further by starting the retail business for these products, bringing
-            the same craftsmanship directly to homes in the US, UK and Europe, with more innovation
+            the same craftsmanship directly to homes around the world, with more innovation
             in design along the way.
           </p>
         </div>
@@ -44,6 +44,7 @@ export default function About() {
             <li><b>Made to order</b>: we can make almost any design on request, in the size and colours you need.</li>
             <li><b>Chain-stitch expertise</b>: rugs, cushion covers and more, in wool and silk.</li>
             <li><b>Pashmina</b>: scarves and shawls, including pieces with zari embroidery.</li>
+            <li><b>Global business</b>: we work with customers and trade partners all over the world.</li>
           </ul>
         </div>
       </section>
