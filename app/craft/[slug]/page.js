@@ -4,7 +4,7 @@ import { byId, imgUrl } from "../../catalog";
 
 const PAGES = {
   "chain-stitch-rugs": {
-    metaTitle: "How Kashmiri chain-stitch rugs are made | Thread and Design Art",
+    metaTitle: "How Kashmiri chain-stitch rugs are made",
     eyebrow: "Our craft",
     title: "How Kashmiri chain-stitch rugs are made",
     lede:
@@ -40,7 +40,7 @@ const PAGES = {
     cta: ["Shop chain-stitch rugs", "/shop?cat=Rugs&tech=Chain%20stitch"],
   },
   pashmina: {
-    metaTitle: "Handcrafted pashmina shawls | Thread and Design Art",
+    metaTitle: "Handcrafted pashmina shawls",
     eyebrow: "Our craft",
     title: "Handcrafted pashmina shawls",
     lede:
