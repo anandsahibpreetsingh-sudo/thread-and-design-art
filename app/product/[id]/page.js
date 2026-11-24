@@ -102,6 +102,14 @@ export default function Product({ params }) {
               >
                 Ask on WhatsApp
               </a>
+              <a
+                className="btn ghost dark"
+                href={`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(`${SITE_URL}/product/${item.id}`)}&media=${encodeURIComponent(imgUrl(item.images[0]))}&description=${encodeURIComponent(item.title)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Save to Pinterest
+              </a>
             </p>
             <p className="muted">Secure checkout on Etsy. Shipping worldwide. Custom sizes and designs on request.</p>
           </div>
