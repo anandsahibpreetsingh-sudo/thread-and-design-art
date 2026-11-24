@@ -46,7 +46,7 @@ export default function About() {
       <section className="split soft">
         <div>
           <p className="eyebrow">Meet the maker</p>
-          <h2>Hello, I&apos;m behind Thread and Design Art</h2>
+          <h2>Hello, I&apos;m the maker behind Thread and Design Art</h2>
           <p>
             I run the shop myself, from choosing designs to packing every order and answering your
             questions. If you are unsure about size, colour or how a rug will look in your room,
